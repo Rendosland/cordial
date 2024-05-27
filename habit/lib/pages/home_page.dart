@@ -6,13 +6,8 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBar(
-          // backgroundColor: Colors.black,
-          ),
-      drawer: Drawer(
-        backgroundColor: Theme.of(context).colorScheme.background,
-      ),
+      appBar: AppBar(),
+      drawer: Drawer(),
     );
   }
 }
