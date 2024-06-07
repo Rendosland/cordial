@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:habit/pages/home_page.dart';
 import 'package:habit/theme/light_mode.dart';
@@ -19,9 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      home: HomePage(),
-      // theme: Provider.of<ThemeProvider>(context).themeData,
+      home: const HomePage(),
       theme: lightMode,
     );
   }
